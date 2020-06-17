@@ -2,6 +2,7 @@ package com.example.android.miwok;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -11,13 +12,15 @@ import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
-//        NumbersClickListener clickListener = ;
+
+
         TextView numbers = (TextView) findViewById(R.id.numbers);
 
 // Set a click listener on that View
@@ -64,8 +67,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-//public void OpenNumbersList(View view){
-//            Intent i = new Intent(this,NumbersActivity.class);
-//            startActivity(i);
-//}
-    }
+
+
+}
