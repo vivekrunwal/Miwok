@@ -7,6 +7,7 @@
     android:background="@color/tan_background"
     android:orientation="horizontal">
 <!--added new branch-->
+
     <ImageView
         android:id="@+id/image"
         android:layout_width="@dimen/list_item_height"
